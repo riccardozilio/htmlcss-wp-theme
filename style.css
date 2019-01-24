@@ -31,7 +31,7 @@ body{
 }
 
 .img{
-  background-image: url(img/forest.jpg);
+  background-image: url(img/forest2.jpg);
   width: 97%;
   height: 90%;
   background-size: cover;
@@ -57,7 +57,9 @@ body{
 .bar{
   width: 100%;
   height: 5vh;
-  background-color: #504741;
+  background-image: url(img/erba.jpg);
+  background-repeat: repeat;
+  /* background-color: #504741; */
   position: relative;
 }
 .menu{
@@ -82,7 +84,8 @@ body{
 }
 
 .menuoption:hover{
-  background-color: #302B27;
+  font-size: 22px;
+  /* background-color: #90A955; */
 }
 .main{
   margin-top: 10px;
